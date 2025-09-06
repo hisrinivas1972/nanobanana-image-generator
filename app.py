@@ -5,7 +5,12 @@ from io import BytesIO
 
 # --- Page config ---
 st.set_page_config(page_title="🎨🍌 Gemini 2.5 Dual Image Editor", layout="centered")
-st.title("🎨🍌 Gemini 2.5 Flash Dual Image Editor")
+
+# Centered title using HTML
+st.markdown(
+    "<h1 style='text-align: center;'>🎨🍌 Gemini 2.5 Flash Dual Image Editor</h1>",
+    unsafe_allow_html=True
+)
 
 # --- API Key input ---
 api_key = st.text_input("🔑 Enter your Google API Key", type="password")
