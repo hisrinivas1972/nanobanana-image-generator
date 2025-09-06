@@ -104,7 +104,8 @@ st.markdown("""
 - 🧠 Describe your intent clearly
 - 🎨 Specify style, tone, or purpose
 - 🖼️ Useful examples:
-  - "Merge these two images into one cinematic scene"
+  - ""Give me long blond hair, slicked back. Put me like a cowboy riding a horse, hunting thieves through the forest with energy and intensity. Close up on my face."
+(Use this prompt together with your own photo as input to generate a dramatic cowboy-themed image.)"
   - "Create a before-and-after restoration"
   - "Combine these into a futuristic landscape"
   - "Turn these faces into a single stylized portrait"
