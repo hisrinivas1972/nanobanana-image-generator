@@ -8,7 +8,7 @@ st.set_page_config(page_title="🎨🍌 Gemini 2.5 Dual Image Editor", layout="c
 
 # Centered title using HTML
 st.markdown(
-    "<h1 style='text-align: center;'>🎨🍌 Gemini 2.5 Flash Dual Image Editor</h1>",
+    "<h2 style='text-align: center;'>🎨🍌 Gemini 2.5 Flash Dual Image Editor</h2>",
     unsafe_allow_html=True
 )
 
